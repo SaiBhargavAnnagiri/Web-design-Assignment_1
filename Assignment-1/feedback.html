@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css" type="text/css" >
+    <style type="text/css">
+        
+        * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  height: 25%;
+  padding: 5px;
+}
+
+.row{
+  height: 100%;
+}
+
+.pine{
+  float: left;
+  height: 75%;
+  width: auto;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+    <body>
+    
+        <nav>
+           <a href="https://www.sirmvit.edu/"><img id="logo" src="images/logo.jpg" alt="logo" /></a>
+            <div>
+               
+                <div class="dropdown-wrapper">
+                    <a class="menu-item" href="fashion.html" style="text-decoration: none;">Fashion & Sports</a>
+                </div>
+                <div class="dropdown-wrapper">
+                    <a class="menu-item" href="fruits.html" style="text-decoration: none;">Fruits & Vegetables</a>
+                </div>
+                <div class="dropdown-wrapper">
+                    <a class="menu-item" href="needs.html" style="text-decoration: none;">Daily Needs</a>
+                </div>
+                <div class="dropdown-wrapper">
+                    <a class="menu-item" href="feedback.html" style="text-decoration: none;">Feedback</a>
+                </div>
+                <button class="primary-button"><a href="supermarket.html" style="text-decoration: none;">Buy Now</a></button>
+            </div>
+        </nav>
+        
+    
+    
+</head>
+<body>
+</head>
+<section id="address-section">
+            <div id="address-wrapper">
+                <div>
+                    <p class="green-heading" style="color: cadetblue;">Contact Us</p>
+                    <h3 class="section-heading">Address Information</h3>
+                    <p class="section-description">SuperMarket</p>
+                    <p class="section-description">Bangalore</p>
+                    <p class="section-description">Ph.No:XXXXXXXXXX</p>
+
+                    
+
+                  <!--   <h4 class="address-heading">Berlin Store</h4>
+                    <p class="address-lines">
+                        Roeterseiland Campus Building E<br>6th floor London<br>Monday to Friday : 9am to 8pm<br>examplemail.mail.com</p> -->
+                </div>
+                <div>
+                    <p class="green-heading" style="color: cadetblue;">FEEDBACK</p>
+                    <h3 class="section-heading">Supermarket</h3>
+                    <p class="section-description">Suggestions for any improvements</p>
+
+                    <form>
+                        <input class="input-box" type="text" name="name" placeholder="Name" required="name">
+                        <input class="input-box" type="text" name="phone" placeholder="Phone" required="phone">
+                        <input class="input-box" type="text" name="subject" placeholder="Subject" required="subject">
+                        <input class="input-box" type="email" name="email" placeholder="E-mail" required="email">
+                        <textarea class="input-box" required="Message">Feedback</textarea>
+                        <input id="btn-submit" style="background-color: burlywood;" class="primary-button" type="submit" value="Submit Now">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+</html>
+
+
+
+

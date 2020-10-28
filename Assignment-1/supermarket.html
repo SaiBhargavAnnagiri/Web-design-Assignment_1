@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>WebDesign assignment_1-1MV17CS021</title>
+    <link rel="stylesheet" href="index.css" type="text/css" >
+    <style type="text/css">
+        
+        * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  height: 25%;
+  padding: 5px;
+}
+
+.row{
+  height: 100%;
+}
+
+.pine{
+  float: left;
+  height: 75%;
+  width: auto;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           <a href="https://www.sirmvit.edu/"><img id="logo" src="images/logo.jpg" alt="logo" /></a>
+            <div>
+                <!-- <div class="dropdown-wrapper">
+                    <a class="menu-item">Items</a>
+                    <div class="dropdown">
+                        <a  href="#fruit">Fruits and vegetables</a>
+                       <a  href="#daily">Needs</a>
+                        <a href="#fashion">Fashion</a>
+                        <a href="#sports">Sports</a>
+                    </div>
+                </div> -->
+                <div class="dropdown-wrapper">
+                    <a class="menu-item" href="fashion.html">Fashion & Sports</a>
+                </div>
+                <div class="dropdown-wrapper">
+                    <a class="menu-item" href="fruits.html">Fruits & Vegetables</a>
+                </div>
+                <div class="dropdown-wrapper">
+                    <a class="menu-item" href="needs.html" style="text-decoration: none;">Daily Needs</a>
+                </div>
+                <div class="dropdown-wrapper">
+                    <a class="menu-item" href="feedback.html" style="text-decoration: none;">Feedback</a>
+                </div>
+                <button class="primary-button"><a href="supermarket.html" style="text-decoration: none;">Buy Now</a></button>
+            </div>
+        </nav>
+        <section id="landing-section">
+            <div id="main-text-wrapper">
+                <h1 style="color: #480ca8"><b>SUPERMARKET STORE<b></h1>
+                <p style="color: #480ca8">SUPERMARKET STORE....HAPPY SHOPPING</p>
+            </div>
+        </section>
+    </header>
+    <main>
+
+        <section id="store-section" style="background-color: aquamarine;">
+            <p id="ffheading"> Best Quality</p>
+            <h3> Super Market</h3>
+            
+            <div id="store-items-wrapper" style="margin-left: 290px">
+                <div class="store-item">
+                    <div class="icon-wrapper">&#127822</div>
+                     <a href="fruits.html" style="text-decoration: none;"><h3>Fruits</h3></a>
+                    <p>Various varities are avilable</p>
+                </div>
+                <div class="store-item">
+                    <div class="icon-wrapper">&#x267B</div>
+                     <a href="needs.html" style="text-decoration: none;"><h3>Daily Needs</h3></a>
+                    <p>Every brand is available</p>
+                </div>
+                <div class="store-item">
+                    <div class="icon-wrapper">&#x1F3F9</div>
+                    <a href="fashion.html" style="text-decoration: none;"><h3>Fashion</h3></a>
+                    <p>All new trends are available</p>
+                </div>
+                
+            </div>
+        </section>
+
+
+
+    </main>
+
+    
+
+
+
+
+
+
+<br><br>
+
+        <section id="follow-section">
+            <div id="left-section">
+                <img src="images/bar.jpg" alt="Strawberry" />
+            </div>
+            <div id="right-section">
+                <div id="text-wrapper">
+                    <h3 style="color: #fff">Follow Us</h3>
+                    <p style="color: #fff">A wide range of products; many unusual and tasty products; courteous staff.</p>
+
+                    <input id="subscribe-email" placeholder="Your Email" />
+                    <input id="subscribe-btn" type="submit" value="Subscribe" />
+                </div>
+            </div>
+        </section>
+
+
+
+        
+
+
+    <footer>Name:A.SAI BHARGAV   USN:1MV17CS011</footer>
+</body>
+</html>
